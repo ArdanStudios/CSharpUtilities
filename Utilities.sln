@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{9BCD5B22-E747-4820-97C3-78380FBED758}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples", "Samples\Samples.csproj", "{F13D6721-9FCB-4D28-B207-08C93AC27DC3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9BCD5B22-E747-4820-97C3-78380FBED758} = {9BCD5B22-E747-4820-97C3-78380FBED758}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
